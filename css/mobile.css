@@ -1,0 +1,102 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+#container {
+  margin: 5vh 5vw;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.a-current {
+  color: white;
+}
+.a-others {
+  color: hsl(0, 1%, 72%);
+}
+#boxOne {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 5%;
+}
+#jr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1.5;
+  background-color: hsl(264, 64%, 52%);
+  border-radius: 10px;
+}
+.Jeremy-img {
+  border-radius: 50%;
+  width: 17vw;
+}
+.top-p {
+  font-size: 6vw;
+  margin-left: 5vw;
+}
+#duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1.5;
+}
+#boxTwo, #boxThree, #boxFour, #boxFive, #boxSix, #boxSeven {
+  width: 100%;
+  height: 30vh;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+}
+.top-section {
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+#boxTwo {
+  background-color: hsl(15, 100%, 70%);
+}
+#boxThree {
+  background-color: hsl(195, 74%, 62%);
+} 
+#boxFour  {
+  background-color: hsl(348, 100%, 68%);
+}
+#boxFive {
+  background-color: hsl(145, 58%, 55%);
+}
+#boxSix  {
+  background-color: hsl(264, 64%, 52%);
+}
+#boxSeven {
+  background-color: hsl(43, 84%, 65%);
+}
+.bottom-section {
+  height: 24vh;
+  border-radius: 5%;
+  background-color: hsl(246, 80%, 60%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.tracked-item {
+  font-size: 5vw;
+  margin-left: 5vw;
+}
+.ellipsis-img {
+  margin: 5vh 0 0 30vw;
+}
+.current-time {
+  font-size: 10vw;
+  margin: -5vh 0 6vh 5vw;
+}
+.previous-time {
+  margin: -2.5vh 0 0 6vw;
+}
+.top-p, .tracked-item, .current-time, .previous-time {
+  color: white;
+}
